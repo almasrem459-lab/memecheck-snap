@@ -1,0 +1,33 @@
+{
+  "version": "0.1.0",
+  "description": "MemeCheckShield transaction insights: Low/Medium/High/Extreme meme-token risk with plain-language reasons (GoPlus, Honeypot.is, authorities).",
+  "proposedName": "MemeCheckShield",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/almasrem459-lab/memecheck-snap.git"
+  },
+  "source": {
+    "shasum": "Hgcvn3VUuS1A4lkQtIJIFdwI+MgVzjtPoYRo4NE9Cck=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "images/icon.svg",
+        "packageName": "@memecheckshield/snap",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "endowment:transaction-insight": {
+      "allowTransactionOrigin": true
+    },
+    "endowment:network-access": {},
+    "endowment:rpc": {
+      "dapps": true,
+      "snaps": false
+    },
+    "snap_dialog": {}
+  },
+  "platformVersion": "10.3.0",
+  "manifestVersion": "0.1"
+}
